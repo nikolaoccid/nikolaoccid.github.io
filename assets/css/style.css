@@ -366,7 +366,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -503,6 +503,16 @@ section {
   z-index: 2;
   opacity: 0;
 }
+.portfolio-title {
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.portfolio-title h3 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #173b6c;
+}
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
@@ -520,7 +530,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
